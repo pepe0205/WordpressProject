@@ -1,0 +1,36 @@
+.dExlGl {
+    margin: 20px 0px 100px;
+}
+.dExlGl h2 span {
+    font-size: 14px;
+    font-weight: 300;
+    display: inline-block;
+}
+.dExlGl .empty {
+    background: rgb(255, 255, 255);
+    padding: 40px 20px;
+    border-radius: 4px;
+    text-align: center;
+    width: 100%;
+}
+.dExlGl .empty__img {
+    width: 190px;
+}
+.dExlGl .empty__note {
+    margin: 15px 0px 30px;
+}
+    .dExlGl .empty__btn {
+    background-color: rgb(253, 216, 53);
+    color: rgb(74, 74, 74);
+    font-weight: 500;
+    padding: 10px 55px;
+    display: inline-block;
+    border-radius: 4px;
+}
+.jFkAwY {
+    width: 1270px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
