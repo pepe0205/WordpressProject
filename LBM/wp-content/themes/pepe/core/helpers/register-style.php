@@ -4,7 +4,8 @@ function pepe_style(){
 		'home',
 		'chitiet',
 		'cart',
-		'news'
+		'news',
+		'categoryStyle'
 	);
 	$jsArray= array(
 		'PageBuilder',

@@ -41,12 +41,13 @@
             </div>
         </div>
     </div>
+    <?php global $tp_options ?>
     <div class="Footer__Addresses-e3clg6-4 gVMMJt">
         <div class="Container-itwfbd-0 jFkAwY" style="display: flex;">
             <div class="address">
                 <i class="tikicon icon-location"></i>
                 <div class="address-info">
-                    <p class="address-title small-text"><b>Địa chỉ văn phòng:</b> 52 Út Tịch, phường 4, quận Tân Bình, thành phố Hồ Chí Minh</p>
+                    <p class="address-title small-text"><b>Địa chỉ văn phòng:</b> <?php echo $tp_options['change-address'];?></p>
                     <p class="address-text small-text">Tiki nhận đặt hàng trực tuyến và giao hàng tận nơi, chưa hỗ trợ mua và nhận hàng trực tiếp tại văn phòng hoặc trung tâm xử lý đơn hàng</p>
                 </div>
             </div>

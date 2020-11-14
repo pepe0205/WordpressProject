@@ -1,0 +1,62 @@
+.widget_nav_menu{
+	    list-style-type: none;
+	        border-top: 1px solid rgb(225, 225, 225);
+}
+.menu{
+	list-style-type: none;
+	margin: 0px;
+padding: 0px;
+width: 244px;
+position: relative;
+margin-top: 10px
+}
+.main-menu a{
+	color: rgb(68, 68, 68);
+	font-size: 13px;
+
+
+}
+.sub-menu {
+	display: none;
+    width: 998px;
+    height: 543px;
+    padding: 14px 20px;
+    border-width: 1px 1px 1px 0px;
+    border-style: solid;
+    border-color: rgb(221, 221, 221) rgb(221, 221, 221) rgb(221, 221, 221) rgb(225, 225, 225);
+    position: absolute;
+    top: -11px;
+    bottom: 0px;
+    left: 100%;
+    background: rgb(255, 255, 255);
+    margin-left: 0px;
+    border-radius: 0px 4px 4px 0px;
+    box-shadow: rgba(0, 0, 0, 0.06) -2px 0px 8px 0px;
+    z-index: 1;
+    overflow: hidden;
+}
+.main-menu{
+	background-color: rgb(255, 255, 255);
+    border-left: 1px solid rgb(225, 225, 225);
+    border-right: 1px solid rgb(225, 225, 225);
+    height: 40px;
+}
+.menu-menu-sidebar-container{
+	position: relative;
+    width: 244px;
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+.img-icon{
+	width: 39px;
+    text-align: center;
+    margin-left: 10px;
+}
+.tikicon{
+	margin-right: 10px;
+}
+.carousel-control-prev, .carousel-control-next{
+	margin-top: 250px;
+}

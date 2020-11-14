@@ -2,7 +2,8 @@
 <main>
 
     <div style="margin-top:15px;margin-bottom:15px;display:flex" class="Container-itwfbd-0 jFkAwY">
-        <?php get_template_part('templates/content','category') ?>
+        <?php get_template_part('templates/content','sidebar') ?>
+   
         <?php get_template_part('templates/content','topbanner') ?>
     </div>
     <div class="Container-itwfbd-0 jFkAwY">

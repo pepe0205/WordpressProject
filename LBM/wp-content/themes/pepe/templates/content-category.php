@@ -1,4 +1,4 @@
-<ul data-view-id="main_navigation" style="z-index:2" class="Navigation__Wrapper-knnw0g-0 jJSxyD catetintuc">
+<ul data-view-id="main_navigation" style="z-index:2" class="Navigation__Wrapper-knnw0g-0 jJSxyD">
             <li data-view-id="main_navigation_item" class="MenuItem-sc-181aa19-0 cOJYFK">
                 <a href="https://tiki.vn/dien-thoai-may-tinh-bang/c1789?src=c.1789.hamburger_menu_fly_out_banner" rel="" class="MenuItem__MenuLink-sc-181aa19-1 bDtEiz"><span class="icon-wrap"><i class="icon-main-menu-cellphone lv1-icon tikicon"></i></span><span class="text abc">Điện Thoại - Máy Tính Bảng</span></a>
                 <div class="SubMenu__NavSub-ykxlng-0 bgEYwg header-sub-menu">

@@ -1,6 +1,6 @@
 <?php get_header()?>
  <div style="margin-top:15px;margin-bottom:15px;display:flex" class="Container-itwfbd-0 jFkAwY">
-        <?php get_template_part('templates/content','category') ?>
+        <?php get_template_part('templates/content','sidebar') ?>
       <div class="col-main">
     <h1 class="main-title">Bản tin</h1>
      <div class="std">
