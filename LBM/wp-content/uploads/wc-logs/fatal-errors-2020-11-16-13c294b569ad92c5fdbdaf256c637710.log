@@ -1,0 +1,26 @@
+2020-11-16T01:58:07+00:00 CRITICAL Maximum execution time of 30 seconds exceeded in D:\Android Studio\xampp\htdocs\LBM\wp-includes\Requests\Transport\cURL.php on line 441
+
+2020-11-16T10:13:33+00:00 CRITICAL Uncaught Error: Call to undefined function display_product_category_thumbnail() in D:\Android Studio\xampp\htdocs\LBM\wp-content\themes\pepe\templates\content-category.php:14
+Stack trace:
+#0 D:\Android Studio\xampp\htdocs\LBM\wp-includes\template.php(732): require()
+#1 D:\Android Studio\xampp\htdocs\LBM\wp-includes\template.php(676): load_template('D:\\Android Stud...', false, Array)
+#2 D:\Android Studio\xampp\htdocs\LBM\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#3 D:\Android Studio\xampp\htdocs\LBM\wp-content\themes\pepe\index.php(5): get_template_part('templates/conte...', 'category')
+#4 D:\Android Studio\xampp\htdocs\LBM\wp-includes\template-loader.php(106): include('D:\\Android Stud...')
+#5 D:\Android Studio\xampp\htdocs\LBM\wp-blog-header.php(19): require_once('D:\\Android Stud...')
+#6 D:\Android Studio\xampp\htdocs\LBM\index.php(17): require('D:\\Android Stud...')
+#7 {main}
+  thrown in D:\Android Studio\xampp\htdocs\LBM\wp-content\themes\pepe\templates\content-category.php on line 14
+
+2020-11-16T10:13:49+00:00 CRITICAL Uncaught Error: Call to undefined function display_product_category_thumbnail() in D:\Android Studio\xampp\htdocs\LBM\wp-content\themes\pepe\templates\content-category.php:14
+Stack trace:
+#0 D:\Android Studio\xampp\htdocs\LBM\wp-includes\template.php(732): require()
+#1 D:\Android Studio\xampp\htdocs\LBM\wp-includes\template.php(676): load_template('D:\\Android Stud...', false, Array)
+#2 D:\Android Studio\xampp\htdocs\LBM\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#3 D:\Android Studio\xampp\htdocs\LBM\wp-content\themes\pepe\index.php(5): get_template_part('templates/conte...', 'category')
+#4 D:\Android Studio\xampp\htdocs\LBM\wp-includes\template-loader.php(106): include('D:\\Android Stud...')
+#5 D:\Android Studio\xampp\htdocs\LBM\wp-blog-header.php(19): require_once('D:\\Android Stud...')
+#6 D:\Android Studio\xampp\htdocs\LBM\index.php(17): require('D:\\Android Stud...')
+#7 {main}
+  thrown in D:\Android Studio\xampp\htdocs\LBM\wp-content\themes\pepe\templates\content-category.php on line 14
+

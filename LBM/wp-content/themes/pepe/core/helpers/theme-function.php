@@ -12,6 +12,8 @@ if (!function_exists('pepe_theme_setup')){
 		//Them thumbnail
 		add_theme_support('post-thumbnails');
 
+		add_theme_support( 'woocommerce' );
+
 		//post format
 
 		add_theme_support('post-format' , array(
@@ -58,3 +60,6 @@ if ( ! file_exists( get_template_directory() . '/class-wp-bootstrap-navwalker.ph
 }
 }
 add_action( 'after_setup_theme', 'register_navwalker' );
+  
+
+   ?>

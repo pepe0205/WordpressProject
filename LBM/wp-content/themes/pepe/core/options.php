@@ -165,7 +165,7 @@ $this->sections[] = array(
 //address
 $this->sections[] = array(
     'title' => __( 'Address', 'thachpham' ),
-    'desc' => __( 'Change Address for company', 'thachpham' ),
+    'desc' => __( 'Change Address for your company', 'thachpham' ),
     'icon' => 'el-icon-font',
     'fields' => array(
     	array(
@@ -173,9 +173,9 @@ $this->sections[] = array(
         'type'     => 'text',
         'title'    => __( 'Change Address', 'thachpham' ),
         'compiler' => 'true',
-        'data' => array ('xx5 đồng nai'),
-       
-    ),
+        'data' => array (
+        	'address-company'=>'xx5 đồng nai',),
+         ),
  )
 ); // end section
  

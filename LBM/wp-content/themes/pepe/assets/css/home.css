@@ -3276,3 +3276,18 @@ p {
     height: 80px;
     padding: 8px;
 }
+.gJJtEe .price del * {
+  
+    font-size: 10px;
+    font-weight: 400;
+}
+.gJJtEe .price ins * {
+  
+    font-size: 20px;
+   
+}
+ ins {
+    display: block;
+   text-decoration: none;
+}
+

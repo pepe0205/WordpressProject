@@ -47,7 +47,7 @@
             <div class="address">
                 <i class="tikicon icon-location"></i>
                 <div class="address-info">
-                    <p class="address-title small-text"><b>Địa chỉ văn phòng:</b> <?php echo $tp_options['change-address'];?></p>
+                    <p class="address-title small-text"><b>Địa chỉ văn phòng:</b> <?php echo $tp_options['change-address']['address-company'];?></p>
                     <p class="address-text small-text">Tiki nhận đặt hàng trực tuyến và giao hàng tận nơi, chưa hỗ trợ mua và nhận hàng trực tiếp tại văn phòng hoặc trung tâm xử lý đơn hàng</p>
                 </div>
             </div>

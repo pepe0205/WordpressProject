@@ -67,7 +67,7 @@
     <div class="Container-itwfbd-0 jFkAwY">
         <div class="Middle__Wrap-vop1h1-0 cSjaat">
             <div class="Middle__LeftContainer-vop1h1-2 kbxFvK">
-                <div class="Logo-sc-1o8jwnd-0 kfetWg"><a data-view-id="header_main_logo" href="http://localhost:88/LBM/"><i class="tikicon icon-tiki_short"></i></a><a href="http://localhost:88/LBM/" aria-label="" data-view-id="header_campaign_logo"><img style="margin-left:3px" height="33" src="https://salt.tikicdn.com/ts/banner/33/ba/89/54c02d2475983f93a024c0cd13f238e4.png" alt=""></a></div>
+                <div class="Logo-sc-1o8jwnd-0 kfetWg"><a data-view-id="header_main_logo" href="http://localhost:88/LBM/"><i class="tikicon icon-tiki_short"></i></a><a href="http://localhost:88/LBM/" aria-label="" data-view-id="header_campaign_logo"><img style="margin-left:3px" height="33" src="<?php global $tp_options; echo $tp_options['logo-image']['url'];?>" alt=""></a></div>
                 <div class="FormSearch__Root-sc-1fwg3wo-0 iPNSVE">
                     <div class="FormSearch__Form-sc-1fwg3wo-1 ciGWvl">
                         <input type="text" data-view-id="main_search_form_input" value="" placeholder="Tìm sản phẩm, danh mục hay thương hiệu mong muốn ..." class="FormSearch__Input-sc-1fwg3wo-2 eUnWAD"><button data-view-id="main_search_form_button" class="FormSearch__Button-sc-1fwg3wo-3 ieXBRV"><i class="tikicon icon-search"></i>Tìm kiếm</button>
