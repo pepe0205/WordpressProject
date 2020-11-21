@@ -52,5 +52,5 @@
                    
                 </div>
             </div>
-            <div class="footer"><a data-view-id="home_deal_view_more" href="/deal-hot?tab=now&amp;page=1" title="Xem thêm Deal Hot" class="ViewButton__Wrapper-sc-1n1zgtf-0 dXmqzl">Xem thêm</a></div>
+           
         </div>

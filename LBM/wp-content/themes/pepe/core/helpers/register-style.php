@@ -14,7 +14,8 @@ function pepe_style(){
 		'main',
 		'webpack',
 		'HomePage',
-		'category'
+		'category',
+		'popup'
 
 );
 	foreach ($cssArray as $file ) {

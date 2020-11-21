@@ -60,6 +60,35 @@ if ( ! file_exists( get_template_directory() . '/class-wp-bootstrap-navwalker.ph
 }
 }
 add_action( 'after_setup_theme', 'register_navwalker' );
-  
+  /* Tự động chuyển đến một trang khác sau khi login */
+function my_login_redirect( $redirect_to, $request, $user ) {
+        //is there a user to check?
+        global $user;
+        if ( isset( $user->roles ) && is_array( $user->roles ) ) {
+                //check for admins
+                if ( in_array( 'administrator', $user->roles ) ) {
+                        // redirect them to the default place
+                        return admin_url();
+                } else {
+                        return home_url();
+                }
+        } else {
+                return $redirect_to;
+        }
+}
+ 
+add_filter( 'login_redirect', 'my_login_redirect', 10, 3 );
+
+
+function viewedProduct(){
+	session_start();
+	if(!isset($_SESSION["viewed"])){
+		$_SESSION["viewed"] = array();
+	}
+	if(is_singular('product')){
+		$_SESSION["viewed"][get_the_ID()] = get_the_ID();
+	}
+}
+add_action('wp', 'viewedProduct');
 
    ?>
