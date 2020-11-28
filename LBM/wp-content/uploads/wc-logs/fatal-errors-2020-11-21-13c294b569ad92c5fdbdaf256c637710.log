@@ -1,0 +1,57 @@
+2020-11-21T01:19:54+00:00 CRITICAL Maximum execution time of 30 seconds exceeded in D:\Android Studio\xampp\htdocs\LBM\wp-includes\widgets\class-wp-widget-recent-comments.php on line 17
+
+2020-11-21T04:51:17+00:00 CRITICAL syntax error, unexpected end of file in D:\Android Studio\xampp\htdocs\LBM\wp-content\themes\pepe\templates\content-loginpopup.php on line 171
+
+2020-11-21T04:52:24+00:00 CRITICAL syntax error, unexpected end of file in D:\Android Studio\xampp\htdocs\LBM\wp-content\themes\pepe\templates\content-loginpopup.php on line 166
+
+2020-11-21T06:59:33+00:00 CRITICAL Uncaught Error: Call to undefined function emptyempty() in D:\Android Studio\xampp\htdocs\LBM\wp-content\themes\pepe\templates\content-loginpopup.php:58
+Stack trace:
+#0 D:\Android Studio\xampp\htdocs\LBM\wp-includes\template.php(732): require()
+#1 D:\Android Studio\xampp\htdocs\LBM\wp-includes\template.php(676): load_template('D:\\Android Stud...', false, Array)
+#2 D:\Android Studio\xampp\htdocs\LBM\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#3 D:\Android Studio\xampp\htdocs\LBM\wp-content\themes\pepe\header.php(125): get_template_part('templates/conte...', 'loginpopup')
+#4 D:\Android Studio\xampp\htdocs\LBM\wp-includes\template.php(730): require_once('D:\\Android Stud...')
+#5 D:\Android Studio\xampp\htdocs\LBM\wp-includes\template.php(676): load_template('D:\\Android Stud...', true, Array)
+#6 D:\Android Studio\xampp\htdocs\LBM\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#7 D:\Android Studio\xampp\htdocs\LBM\wp-content\themes\pepe\inde in D:\Android Studio\xampp\htdocs\LBM\wp-content\themes\pepe\templates\content-loginpopup.php on line 58
+
+2020-11-21T07:01:48+00:00 CRITICAL syntax error, unexpected ';', expecting ')' in D:\Android Studio\xampp\htdocs\LBM\wp-content\themes\pepe\templates\content-loginpopup.php on line 53
+
+2020-11-21T07:02:14+00:00 CRITICAL syntax error, unexpected ';', expecting ')' in D:\Android Studio\xampp\htdocs\LBM\wp-content\themes\pepe\templates\content-loginpopup.php on line 53
+
+2020-11-21T07:02:21+00:00 CRITICAL syntax error, unexpected ';', expecting ')' in D:\Android Studio\xampp\htdocs\LBM\wp-content\themes\pepe\templates\content-loginpopup.php on line 53
+
+2020-11-21T07:02:45+00:00 CRITICAL Uncaught Error: Call to undefined function emptyempty() in D:\Android Studio\xampp\htdocs\LBM\wp-content\themes\pepe\templates\content-loginpopup.php:58
+Stack trace:
+#0 D:\Android Studio\xampp\htdocs\LBM\wp-includes\template.php(732): require()
+#1 D:\Android Studio\xampp\htdocs\LBM\wp-includes\template.php(676): load_template('D:\\Android Stud...', false, Array)
+#2 D:\Android Studio\xampp\htdocs\LBM\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#3 D:\Android Studio\xampp\htdocs\LBM\wp-content\themes\pepe\header.php(125): get_template_part('templates/conte...', 'loginpopup')
+#4 D:\Android Studio\xampp\htdocs\LBM\wp-includes\template.php(730): require_once('D:\\Android Stud...')
+#5 D:\Android Studio\xampp\htdocs\LBM\wp-includes\template.php(676): load_template('D:\\Android Stud...', true, Array)
+#6 D:\Android Studio\xampp\htdocs\LBM\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#7 D:\Android Studio\xampp\htdocs\LBM\wp-content\themes\pepe\inde in D:\Android Studio\xampp\htdocs\LBM\wp-content\themes\pepe\templates\content-loginpopup.php on line 58
+
+2020-11-21T07:08:17+00:00 CRITICAL Uncaught Error: Call to undefined method wpdb::esc_sql() in D:\Android Studio\xampp\htdocs\LBM\wp-content\themes\pepe\templates\content-loginpopup.php:41
+Stack trace:
+#0 D:\Android Studio\xampp\htdocs\LBM\wp-includes\template.php(732): require()
+#1 D:\Android Studio\xampp\htdocs\LBM\wp-includes\template.php(676): load_template('D:\\Android Stud...', false, Array)
+#2 D:\Android Studio\xampp\htdocs\LBM\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#3 D:\Android Studio\xampp\htdocs\LBM\wp-content\themes\pepe\header.php(125): get_template_part('templates/conte...', 'loginpopup')
+#4 D:\Android Studio\xampp\htdocs\LBM\wp-includes\template.php(730): require_once('D:\\Android Stud...')
+#5 D:\Android Studio\xampp\htdocs\LBM\wp-includes\template.php(676): load_template('D:\\Android Stud...', true, Array)
+#6 D:\Android Studio\xampp\htdocs\LBM\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#7 D:\Android Studio\xampp\htdocs\LBM\wp-content\themes\pepe\ind in D:\Android Studio\xampp\htdocs\LBM\wp-content\themes\pepe\templates\content-loginpopup.php on line 41
+
+2020-11-21T08:17:18+00:00 CRITICAL syntax error, unexpected end of file in D:\Android Studio\xampp\htdocs\LBM\wp-content\themes\pepe\templates\content-daxem.php on line 49
+
+2020-11-21T08:18:23+00:00 CRITICAL syntax error, unexpected end of file in D:\Android Studio\xampp\htdocs\LBM\wp-content\themes\pepe\templates\content-daxem.php on line 50
+
+2020-11-21T09:00:41+00:00 CRITICAL syntax error, unexpected '?>' in D:\Android Studio\xampp\htdocs\LBM\wp-content\themes\pepe\woocommerce\content-single-product.php on line 81
+
+2020-11-21T09:09:10+00:00 CRITICAL syntax error, unexpected '?>' in D:\Android Studio\xampp\htdocs\LBM\wp-content\themes\pepe\woocommerce\content-single-product.php on line 81
+
+2020-11-21T09:10:37+00:00 CRITICAL syntax error, unexpected '?>' in D:\Android Studio\xampp\htdocs\LBM\wp-content\themes\pepe\woocommerce\content-single-product.php on line 81
+
+2020-11-21T09:10:52+00:00 CRITICAL syntax error, unexpected '?>' in D:\Android Studio\xampp\htdocs\LBM\wp-content\themes\pepe\woocommerce\content-single-product.php on line 81
+

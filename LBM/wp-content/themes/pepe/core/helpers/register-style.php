@@ -5,15 +5,12 @@ function pepe_style(){
 		'chitiet',
 		'cart',
 		'news',
-		'categoryStyle'
+		'categoryStyle',
+		'thanhtoan',
+		'bill'
 	);
 	$jsArray= array(
-		'PageBuilder',
-		'appTiki',
-		'comp_Header',
-		'main',
-		'webpack',
-		'HomePage',
+		'add-to-cart',
 		'category',
 		'popup'
 

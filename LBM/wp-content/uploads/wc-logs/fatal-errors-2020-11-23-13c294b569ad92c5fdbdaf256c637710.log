@@ -1,0 +1,257 @@
+2020-11-23T01:06:32+00:00 CRITICAL Maximum execution time of 30 seconds exceeded in D:\Android Studio\xampp\htdocs\LBM\wp-includes\functions.php on line 6027
+
+2020-11-23T02:18:00+00:00 CRITICAL Uncaught Error: Call to undefined method WC_Cart::cart_contents_count() in D:\Android Studio\xampp\htdocs\LBM\wp-content\themes\pepe\header.php:96
+Stack trace:
+#0 D:\Android Studio\xampp\htdocs\LBM\wp-includes\template.php(730): require_once()
+#1 D:\Android Studio\xampp\htdocs\LBM\wp-includes\template.php(676): load_template('D:\\Android Stud...', true, Array)
+#2 D:\Android Studio\xampp\htdocs\LBM\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#3 D:\Android Studio\xampp\htdocs\LBM\wp-content\themes\pepe\single-product.php(1): get_header()
+#4 D:\Android Studio\xampp\htdocs\LBM\wp-includes\template-loader.php(106): include('D:\\Android Stud...')
+#5 D:\Android Studio\xampp\htdocs\LBM\wp-blog-header.php(19): require_once('D:\\Android Stud...')
+#6 D:\Android Studio\xampp\htdocs\LBM\index.php(17): require('D:\\Android Stud...')
+#7 {main}
+  thrown in D:\Android Studio\xampp\htdocs\LBM\wp-content\themes\pepe\header.php on line 96
+
+2020-11-23T02:54:16+00:00 CRITICAL Uncaught Error: Call to undefined method WC_Product_Simple::get_related_products() in D:\Android Studio\xampp\htdocs\LBM\wp-content\themes\pepe\woocommerce\content-single-product.php:152
+Stack trace:
+#0 D:\Android Studio\xampp\htdocs\LBM\wp-includes\template.php(732): require()
+#1 D:\Android Studio\xampp\htdocs\LBM\wp-content\plugins\woocommerce\includes\wc-core-functions.php(284): load_template('D:\\Android Stud...', false)
+#2 D:\Android Studio\xampp\htdocs\LBM\wp-content\themes\pepe\single-product.php(15): wc_get_template_part('content', 'single-product')
+#3 D:\Android Studio\xampp\htdocs\LBM\wp-includes\template-loader.php(106): include('D:\\Android Stud...')
+#4 D:\Android Studio\xampp\htdocs\LBM\wp-blog-header.php(19): require_once('D:\\Android Stud...')
+#5 D:\Android Studio\xampp\htdocs\LBM\index.php(17): require('D:\\Android Stud...')
+#6 {main}
+  thrown in D:\Android Studio\xampp\htdocs\LBM\wp-content\themes\pepe\woocommerce\content-single-product.php on line 152
+
+2020-11-23T02:55:20+00:00 CRITICAL Uncaught Error: Call to undefined method WC_Product_Simple::wc_get_related_products() in D:\Android Studio\xampp\htdocs\LBM\wp-content\themes\pepe\woocommerce\content-single-product.php:152
+Stack trace:
+#0 D:\Android Studio\xampp\htdocs\LBM\wp-includes\template.php(732): require()
+#1 D:\Android Studio\xampp\htdocs\LBM\wp-content\plugins\woocommerce\includes\wc-core-functions.php(284): load_template('D:\\Android Stud...', false)
+#2 D:\Android Studio\xampp\htdocs\LBM\wp-content\themes\pepe\single-product.php(15): wc_get_template_part('content', 'single-product')
+#3 D:\Android Studio\xampp\htdocs\LBM\wp-includes\template-loader.php(106): include('D:\\Android Stud...')
+#4 D:\Android Studio\xampp\htdocs\LBM\wp-blog-header.php(19): require_once('D:\\Android Stud...')
+#5 D:\Android Studio\xampp\htdocs\LBM\index.php(17): require('D:\\Android Stud...')
+#6 {main}
+  thrown in D:\Android Studio\xampp\htdocs\LBM\wp-content\themes\pepe\woocommerce\content-single-product.php on line 152
+
+2020-11-23T02:55:54+00:00 CRITICAL Uncaught Error: Call to undefined method WC_Product_Simple::get_related_products() in D:\Android Studio\xampp\htdocs\LBM\wp-content\themes\pepe\woocommerce\content-single-product.php:152
+Stack trace:
+#0 D:\Android Studio\xampp\htdocs\LBM\wp-includes\template.php(732): require()
+#1 D:\Android Studio\xampp\htdocs\LBM\wp-content\plugins\woocommerce\includes\wc-core-functions.php(284): load_template('D:\\Android Stud...', false)
+#2 D:\Android Studio\xampp\htdocs\LBM\wp-content\themes\pepe\single-product.php(15): wc_get_template_part('content', 'single-product')
+#3 D:\Android Studio\xampp\htdocs\LBM\wp-includes\template-loader.php(106): include('D:\\Android Stud...')
+#4 D:\Android Studio\xampp\htdocs\LBM\wp-blog-header.php(19): require_once('D:\\Android Stud...')
+#5 D:\Android Studio\xampp\htdocs\LBM\index.php(17): require('D:\\Android Stud...')
+#6 {main}
+  thrown in D:\Android Studio\xampp\htdocs\LBM\wp-content\themes\pepe\woocommerce\content-single-product.php on line 152
+
+2020-11-23T03:03:06+00:00 CRITICAL Uncaught Error: Call to undefined function wc_get_related_() in D:\Android Studio\xampp\htdocs\LBM\wp-content\themes\pepe\woocommerce\content-single-product.php:152
+Stack trace:
+#0 D:\Android Studio\xampp\htdocs\LBM\wp-includes\template.php(732): require()
+#1 D:\Android Studio\xampp\htdocs\LBM\wp-content\plugins\woocommerce\includes\wc-core-functions.php(284): load_template('D:\\Android Stud...', false)
+#2 D:\Android Studio\xampp\htdocs\LBM\wp-content\themes\pepe\single-product.php(15): wc_get_template_part('content', 'single-product')
+#3 D:\Android Studio\xampp\htdocs\LBM\wp-includes\template-loader.php(106): include('D:\\Android Stud...')
+#4 D:\Android Studio\xampp\htdocs\LBM\wp-blog-header.php(19): require_once('D:\\Android Stud...')
+#5 D:\Android Studio\xampp\htdocs\LBM\index.php(17): require('D:\\Android Stud...')
+#6 {main}
+  thrown in D:\Android Studio\xampp\htdocs\LBM\wp-content\themes\pepe\woocommerce\content-single-product.php on line 152
+
+2020-11-23T03:12:10+00:00 CRITICAL Uncaught Error: Call to a member function get_title() on null in D:\Android Studio\xampp\htdocs\LBM\wp-content\themes\pepe\page-cart.php:22
+Stack trace:
+#0 D:\Android Studio\xampp\htdocs\LBM\wp-includes\template-loader.php(106): include()
+#1 D:\Android Studio\xampp\htdocs\LBM\wp-blog-header.php(19): require_once('D:\\Android Stud...')
+#2 D:\Android Studio\xampp\htdocs\LBM\index.php(17): require('D:\\Android Stud...')
+#3 {main}
+  thrown in D:\Android Studio\xampp\htdocs\LBM\wp-content\themes\pepe\page-cart.php on line 22
+
+2020-11-23T03:12:29+00:00 CRITICAL Uncaught Error: Call to a member function get_title() on null in D:\Android Studio\xampp\htdocs\LBM\wp-content\themes\pepe\page-cart.php:22
+Stack trace:
+#0 D:\Android Studio\xampp\htdocs\LBM\wp-includes\template-loader.php(106): include()
+#1 D:\Android Studio\xampp\htdocs\LBM\wp-blog-header.php(19): require_once('D:\\Android Stud...')
+#2 D:\Android Studio\xampp\htdocs\LBM\index.php(17): require('D:\\Android Stud...')
+#3 {main}
+  thrown in D:\Android Studio\xampp\htdocs\LBM\wp-content\themes\pepe\page-cart.php on line 22
+
+2020-11-23T04:08:51+00:00 CRITICAL syntax error, unexpected '<' in D:\Android Studio\xampp\htdocs\LBM\wp-content\themes\pepe\page-cart.php on line 45
+
+2020-11-23T04:13:12+00:00 CRITICAL Uncaught Error: Call to a member function is_on_sale() on null in D:\Android Studio\xampp\htdocs\LBM\wp-content\themes\pepe\page-cart.php:45
+Stack trace:
+#0 D:\Android Studio\xampp\htdocs\LBM\wp-includes\template-loader.php(106): include()
+#1 D:\Android Studio\xampp\htdocs\LBM\wp-blog-header.php(19): require_once('D:\\Android Stud...')
+#2 D:\Android Studio\xampp\htdocs\LBM\index.php(17): require('D:\\Android Stud...')
+#3 {main}
+  thrown in D:\Android Studio\xampp\htdocs\LBM\wp-content\themes\pepe\page-cart.php on line 45
+
+2020-11-23T04:13:27+00:00 CRITICAL Uncaught Error: Call to a member function is_on_sale() on null in D:\Android Studio\xampp\htdocs\LBM\wp-content\themes\pepe\page-cart.php:45
+Stack trace:
+#0 D:\Android Studio\xampp\htdocs\LBM\wp-includes\template-loader.php(106): include()
+#1 D:\Android Studio\xampp\htdocs\LBM\wp-blog-header.php(19): require_once('D:\\Android Stud...')
+#2 D:\Android Studio\xampp\htdocs\LBM\index.php(17): require('D:\\Android Stud...')
+#3 {main}
+  thrown in D:\Android Studio\xampp\htdocs\LBM\wp-content\themes\pepe\page-cart.php on line 45
+
+2020-11-23T04:18:07+00:00 CRITICAL Uncaught Error: Call to undefined function wc_get_total() in D:\Android Studio\xampp\htdocs\LBM\wp-content\themes\pepe\page-cart.php:89
+Stack trace:
+#0 D:\Android Studio\xampp\htdocs\LBM\wp-includes\template-loader.php(106): include()
+#1 D:\Android Studio\xampp\htdocs\LBM\wp-blog-header.php(19): require_once('D:\\Android Stud...')
+#2 D:\Android Studio\xampp\htdocs\LBM\index.php(17): require('D:\\Android Stud...')
+#3 {main}
+  thrown in D:\Android Studio\xampp\htdocs\LBM\wp-content\themes\pepe\page-cart.php on line 89
+
+2020-11-23T04:30:56+00:00 CRITICAL syntax error, unexpected ''category'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in D:\Android Studio\xampp\htdocs\LBM\wp-content\themes\pepe\core\helpers\register-style.php on line 12
+
+2020-11-23T06:11:23+00:00 CRITICAL syntax error, unexpected '?>' in D:\Android Studio\xampp\htdocs\LBM\wp-content\themes\pepe\woocommerce\content-single-product.php on line 79
+
+2020-11-23T10:06:35+00:00 CRITICAL Uncaught Error: Call to a member function get_tax_class() on null in D:\Android Studio\xampp\htdocs\LBM\wp-content\plugins\woocommerce\includes\class-wc-cart-totals.php:225
+Stack trace:
+#0 D:\Android Studio\xampp\htdocs\LBM\wp-content\plugins\woocommerce\includes\class-wc-cart-totals.php(651): WC_Cart_Totals->get_items_from_cart()
+#1 D:\Android Studio\xampp\htdocs\LBM\wp-content\plugins\woocommerce\includes\class-wc-cart-totals.php(143): WC_Cart_Totals->calculate_item_totals()
+#2 D:\Android Studio\xampp\htdocs\LBM\wp-content\plugins\woocommerce\includes\class-wc-cart-totals.php(134): WC_Cart_Totals->calculate()
+#3 D:\Android Studio\xampp\htdocs\LBM\wp-content\plugins\woocommerce\includes\class-wc-cart.php(1369): WC_Cart_Totals->__construct(Object(WC_Cart))
+#4 D:\Android Studio\xampp\htdocs\LBM\wp-content\plugins\woocommerce\includes\class-wc-cart.php(1328): WC_Cart->calculate_totals()
+#5 D:\Android Studio\xampp\htdocs\LBM\wp-content\themes\pepe\core\helpers\theme-function.php(123): WC_Cart->set_quantity(1485, in D:\Android Studio\xampp\htdocs\LBM\wp-content\plugins\woocommerce\includes\class-wc-cart-totals.php on line 225
+
+2020-11-23T10:07:54+00:00 CRITICAL Uncaught Error: Call to a member function get_tax_class() on null in D:\Android Studio\xampp\htdocs\LBM\wp-content\plugins\woocommerce\includes\class-wc-cart-totals.php:225
+Stack trace:
+#0 D:\Android Studio\xampp\htdocs\LBM\wp-content\plugins\woocommerce\includes\class-wc-cart-totals.php(651): WC_Cart_Totals->get_items_from_cart()
+#1 D:\Android Studio\xampp\htdocs\LBM\wp-content\plugins\woocommerce\includes\class-wc-cart-totals.php(143): WC_Cart_Totals->calculate_item_totals()
+#2 D:\Android Studio\xampp\htdocs\LBM\wp-content\plugins\woocommerce\includes\class-wc-cart-totals.php(134): WC_Cart_Totals->calculate()
+#3 D:\Android Studio\xampp\htdocs\LBM\wp-content\plugins\woocommerce\includes\class-wc-cart.php(1369): WC_Cart_Totals->__construct(Object(WC_Cart))
+#4 D:\Android Studio\xampp\htdocs\LBM\wp-content\plugins\woocommerce\includes\class-wc-cart.php(1328): WC_Cart->calculate_totals()
+#5 D:\Android Studio\xampp\htdocs\LBM\wp-content\themes\pepe\core\helpers\theme-function.php(123): WC_Cart->set_quantity(1485, in D:\Android Studio\xampp\htdocs\LBM\wp-content\plugins\woocommerce\includes\class-wc-cart-totals.php on line 225
+
+2020-11-23T10:08:54+00:00 CRITICAL Uncaught Error: Call to a member function get_tax_class() on null in D:\Android Studio\xampp\htdocs\LBM\wp-content\plugins\woocommerce\includes\class-wc-cart-totals.php:225
+Stack trace:
+#0 D:\Android Studio\xampp\htdocs\LBM\wp-content\plugins\woocommerce\includes\class-wc-cart-totals.php(651): WC_Cart_Totals->get_items_from_cart()
+#1 D:\Android Studio\xampp\htdocs\LBM\wp-content\plugins\woocommerce\includes\class-wc-cart-totals.php(143): WC_Cart_Totals->calculate_item_totals()
+#2 D:\Android Studio\xampp\htdocs\LBM\wp-content\plugins\woocommerce\includes\class-wc-cart-totals.php(134): WC_Cart_Totals->calculate()
+#3 D:\Android Studio\xampp\htdocs\LBM\wp-content\plugins\woocommerce\includes\class-wc-cart.php(1369): WC_Cart_Totals->__construct(Object(WC_Cart))
+#4 D:\Android Studio\xampp\htdocs\LBM\wp-content\plugins\woocommerce\includes\class-wc-cart.php(1328): WC_Cart->calculate_totals()
+#5 D:\Android Studio\xampp\htdocs\LBM\wp-content\themes\pepe\core\helpers\theme-function.php(123): WC_Cart->set_quantity(1485, in D:\Android Studio\xampp\htdocs\LBM\wp-content\plugins\woocommerce\includes\class-wc-cart-totals.php on line 225
+
+2020-11-23T10:15:49+00:00 CRITICAL Uncaught Error: Call to a member function get_tax_class() on null in D:\Android Studio\xampp\htdocs\LBM\wp-content\plugins\woocommerce\includes\class-wc-cart-totals.php:225
+Stack trace:
+#0 D:\Android Studio\xampp\htdocs\LBM\wp-content\plugins\woocommerce\includes\class-wc-cart-totals.php(651): WC_Cart_Totals->get_items_from_cart()
+#1 D:\Android Studio\xampp\htdocs\LBM\wp-content\plugins\woocommerce\includes\class-wc-cart-totals.php(143): WC_Cart_Totals->calculate_item_totals()
+#2 D:\Android Studio\xampp\htdocs\LBM\wp-content\plugins\woocommerce\includes\class-wc-cart-totals.php(134): WC_Cart_Totals->calculate()
+#3 D:\Android Studio\xampp\htdocs\LBM\wp-content\plugins\woocommerce\includes\class-wc-cart.php(1369): WC_Cart_Totals->__construct(Object(WC_Cart))
+#4 D:\Android Studio\xampp\htdocs\LBM\wp-content\plugins\woocommerce\includes\class-wc-cart.php(1328): WC_Cart->calculate_totals()
+#5 D:\Android Studio\xampp\htdocs\LBM\wp-content\themes\pepe\core\helpers\theme-function.php(124): WC_Cart->set_quantity(1485, in D:\Android Studio\xampp\htdocs\LBM\wp-content\plugins\woocommerce\includes\class-wc-cart-totals.php on line 225
+
+2020-11-23T10:17:03+00:00 CRITICAL Uncaught Error: Call to a member function get_tax_class() on null in D:\Android Studio\xampp\htdocs\LBM\wp-content\plugins\woocommerce\includes\class-wc-cart-totals.php:225
+Stack trace:
+#0 D:\Android Studio\xampp\htdocs\LBM\wp-content\plugins\woocommerce\includes\class-wc-cart-totals.php(651): WC_Cart_Totals->get_items_from_cart()
+#1 D:\Android Studio\xampp\htdocs\LBM\wp-content\plugins\woocommerce\includes\class-wc-cart-totals.php(143): WC_Cart_Totals->calculate_item_totals()
+#2 D:\Android Studio\xampp\htdocs\LBM\wp-content\plugins\woocommerce\includes\class-wc-cart-totals.php(134): WC_Cart_Totals->calculate()
+#3 D:\Android Studio\xampp\htdocs\LBM\wp-content\plugins\woocommerce\includes\class-wc-cart.php(1369): WC_Cart_Totals->__construct(Object(WC_Cart))
+#4 D:\Android Studio\xampp\htdocs\LBM\wp-content\plugins\woocommerce\includes\class-wc-cart.php(1328): WC_Cart->calculate_totals()
+#5 D:\Android Studio\xampp\htdocs\LBM\wp-content\themes\pepe\core\helpers\theme-function.php(124): WC_Cart->set_quantity(1485, in D:\Android Studio\xampp\htdocs\LBM\wp-content\plugins\woocommerce\includes\class-wc-cart-totals.php on line 225
+
+2020-11-23T10:17:04+00:00 CRITICAL Uncaught Error: Call to a member function get_tax_class() on null in D:\Android Studio\xampp\htdocs\LBM\wp-content\plugins\woocommerce\includes\class-wc-cart-totals.php:225
+Stack trace:
+#0 D:\Android Studio\xampp\htdocs\LBM\wp-content\plugins\woocommerce\includes\class-wc-cart-totals.php(651): WC_Cart_Totals->get_items_from_cart()
+#1 D:\Android Studio\xampp\htdocs\LBM\wp-content\plugins\woocommerce\includes\class-wc-cart-totals.php(143): WC_Cart_Totals->calculate_item_totals()
+#2 D:\Android Studio\xampp\htdocs\LBM\wp-content\plugins\woocommerce\includes\class-wc-cart-totals.php(134): WC_Cart_Totals->calculate()
+#3 D:\Android Studio\xampp\htdocs\LBM\wp-content\plugins\woocommerce\includes\class-wc-cart.php(1369): WC_Cart_Totals->__construct(Object(WC_Cart))
+#4 D:\Android Studio\xampp\htdocs\LBM\wp-content\plugins\woocommerce\includes\class-wc-cart.php(1328): WC_Cart->calculate_totals()
+#5 D:\Android Studio\xampp\htdocs\LBM\wp-content\themes\pepe\core\helpers\theme-function.php(124): WC_Cart->set_quantity(1485, in D:\Android Studio\xampp\htdocs\LBM\wp-content\plugins\woocommerce\includes\class-wc-cart-totals.php on line 225
+
+2020-11-23T10:17:04+00:00 CRITICAL Uncaught Error: Call to a member function get_tax_class() on null in D:\Android Studio\xampp\htdocs\LBM\wp-content\plugins\woocommerce\includes\class-wc-cart-totals.php:225
+Stack trace:
+#0 D:\Android Studio\xampp\htdocs\LBM\wp-content\plugins\woocommerce\includes\class-wc-cart-totals.php(651): WC_Cart_Totals->get_items_from_cart()
+#1 D:\Android Studio\xampp\htdocs\LBM\wp-content\plugins\woocommerce\includes\class-wc-cart-totals.php(143): WC_Cart_Totals->calculate_item_totals()
+#2 D:\Android Studio\xampp\htdocs\LBM\wp-content\plugins\woocommerce\includes\class-wc-cart-totals.php(134): WC_Cart_Totals->calculate()
+#3 D:\Android Studio\xampp\htdocs\LBM\wp-content\plugins\woocommerce\includes\class-wc-cart.php(1369): WC_Cart_Totals->__construct(Object(WC_Cart))
+#4 D:\Android Studio\xampp\htdocs\LBM\wp-content\plugins\woocommerce\includes\class-wc-cart.php(1328): WC_Cart->calculate_totals()
+#5 D:\Android Studio\xampp\htdocs\LBM\wp-content\themes\pepe\core\helpers\theme-function.php(124): WC_Cart->set_quantity(1485, in D:\Android Studio\xampp\htdocs\LBM\wp-content\plugins\woocommerce\includes\class-wc-cart-totals.php on line 225
+
+2020-11-23T10:18:49+00:00 CRITICAL Uncaught Error: Call to a member function get_tax_class() on null in D:\Android Studio\xampp\htdocs\LBM\wp-content\plugins\woocommerce\includes\class-wc-cart-totals.php:225
+Stack trace:
+#0 D:\Android Studio\xampp\htdocs\LBM\wp-content\plugins\woocommerce\includes\class-wc-cart-totals.php(651): WC_Cart_Totals->get_items_from_cart()
+#1 D:\Android Studio\xampp\htdocs\LBM\wp-content\plugins\woocommerce\includes\class-wc-cart-totals.php(143): WC_Cart_Totals->calculate_item_totals()
+#2 D:\Android Studio\xampp\htdocs\LBM\wp-content\plugins\woocommerce\includes\class-wc-cart-totals.php(134): WC_Cart_Totals->calculate()
+#3 D:\Android Studio\xampp\htdocs\LBM\wp-content\plugins\woocommerce\includes\class-wc-cart.php(1369): WC_Cart_Totals->__construct(Object(WC_Cart))
+#4 D:\Android Studio\xampp\htdocs\LBM\wp-content\plugins\woocommerce\includes\class-wc-cart.php(1328): WC_Cart->calculate_totals()
+#5 D:\Android Studio\xampp\htdocs\LBM\wp-content\themes\pepe\core\helpers\theme-function.php(124): WC_Cart->set_quantity(1485, in D:\Android Studio\xampp\htdocs\LBM\wp-content\plugins\woocommerce\includes\class-wc-cart-totals.php on line 225
+
+2020-11-23T10:19:37+00:00 CRITICAL Uncaught Error: Call to a member function get_tax_class() on null in D:\Android Studio\xampp\htdocs\LBM\wp-content\plugins\woocommerce\includes\class-wc-cart-totals.php:225
+Stack trace:
+#0 D:\Android Studio\xampp\htdocs\LBM\wp-content\plugins\woocommerce\includes\class-wc-cart-totals.php(651): WC_Cart_Totals->get_items_from_cart()
+#1 D:\Android Studio\xampp\htdocs\LBM\wp-content\plugins\woocommerce\includes\class-wc-cart-totals.php(143): WC_Cart_Totals->calculate_item_totals()
+#2 D:\Android Studio\xampp\htdocs\LBM\wp-content\plugins\woocommerce\includes\class-wc-cart-totals.php(134): WC_Cart_Totals->calculate()
+#3 D:\Android Studio\xampp\htdocs\LBM\wp-content\plugins\woocommerce\includes\class-wc-cart.php(1369): WC_Cart_Totals->__construct(Object(WC_Cart))
+#4 D:\Android Studio\xampp\htdocs\LBM\wp-content\plugins\woocommerce\includes\class-wc-cart.php(1328): WC_Cart->calculate_totals()
+#5 D:\Android Studio\xampp\htdocs\LBM\wp-content\themes\pepe\core\helpers\theme-function.php(124): WC_Cart->set_quantity(1485, in D:\Android Studio\xampp\htdocs\LBM\wp-content\plugins\woocommerce\includes\class-wc-cart-totals.php on line 225
+
+2020-11-23T10:21:29+00:00 CRITICAL Uncaught Error: Call to a member function get_tax_class() on null in D:\Android Studio\xampp\htdocs\LBM\wp-content\plugins\woocommerce\includes\class-wc-cart-totals.php:225
+Stack trace:
+#0 D:\Android Studio\xampp\htdocs\LBM\wp-content\plugins\woocommerce\includes\class-wc-cart-totals.php(651): WC_Cart_Totals->get_items_from_cart()
+#1 D:\Android Studio\xampp\htdocs\LBM\wp-content\plugins\woocommerce\includes\class-wc-cart-totals.php(143): WC_Cart_Totals->calculate_item_totals()
+#2 D:\Android Studio\xampp\htdocs\LBM\wp-content\plugins\woocommerce\includes\class-wc-cart-totals.php(134): WC_Cart_Totals->calculate()
+#3 D:\Android Studio\xampp\htdocs\LBM\wp-content\plugins\woocommerce\includes\class-wc-cart.php(1369): WC_Cart_Totals->__construct(Object(WC_Cart))
+#4 D:\Android Studio\xampp\htdocs\LBM\wp-content\plugins\woocommerce\includes\class-wc-cart.php(1328): WC_Cart->calculate_totals()
+#5 D:\Android Studio\xampp\htdocs\LBM\wp-content\themes\pepe\core\helpers\theme-function.php(124): WC_Cart->set_quantity(1485, in D:\Android Studio\xampp\htdocs\LBM\wp-content\plugins\woocommerce\includes\class-wc-cart-totals.php on line 225
+
+2020-11-23T10:23:16+00:00 CRITICAL Uncaught Error: Call to a member function get_tax_class() on null in D:\Android Studio\xampp\htdocs\LBM\wp-content\plugins\woocommerce\includes\class-wc-cart-totals.php:225
+Stack trace:
+#0 D:\Android Studio\xampp\htdocs\LBM\wp-content\plugins\woocommerce\includes\class-wc-cart-totals.php(651): WC_Cart_Totals->get_items_from_cart()
+#1 D:\Android Studio\xampp\htdocs\LBM\wp-content\plugins\woocommerce\includes\class-wc-cart-totals.php(143): WC_Cart_Totals->calculate_item_totals()
+#2 D:\Android Studio\xampp\htdocs\LBM\wp-content\plugins\woocommerce\includes\class-wc-cart-totals.php(134): WC_Cart_Totals->calculate()
+#3 D:\Android Studio\xampp\htdocs\LBM\wp-content\plugins\woocommerce\includes\class-wc-cart.php(1369): WC_Cart_Totals->__construct(Object(WC_Cart))
+#4 D:\Android Studio\xampp\htdocs\LBM\wp-content\plugins\woocommerce\includes\class-wc-cart.php(1328): WC_Cart->calculate_totals()
+#5 D:\Android Studio\xampp\htdocs\LBM\wp-content\themes\pepe\core\helpers\theme-function.php(126): WC_Cart->set_quantity(1485, in D:\Android Studio\xampp\htdocs\LBM\wp-content\plugins\woocommerce\includes\class-wc-cart-totals.php on line 225
+
+2020-11-23T10:30:48+00:00 CRITICAL Uncaught Error: Call to a member function get_tax_class() on null in D:\Android Studio\xampp\htdocs\LBM\wp-content\plugins\woocommerce\includes\class-wc-cart-totals.php:225
+Stack trace:
+#0 D:\Android Studio\xampp\htdocs\LBM\wp-content\plugins\woocommerce\includes\class-wc-cart-totals.php(651): WC_Cart_Totals->get_items_from_cart()
+#1 D:\Android Studio\xampp\htdocs\LBM\wp-content\plugins\woocommerce\includes\class-wc-cart-totals.php(143): WC_Cart_Totals->calculate_item_totals()
+#2 D:\Android Studio\xampp\htdocs\LBM\wp-content\plugins\woocommerce\includes\class-wc-cart-totals.php(134): WC_Cart_Totals->calculate()
+#3 D:\Android Studio\xampp\htdocs\LBM\wp-content\plugins\woocommerce\includes\class-wc-cart.php(1369): WC_Cart_Totals->__construct(Object(WC_Cart))
+#4 D:\Android Studio\xampp\htdocs\LBM\wp-content\plugins\woocommerce\includes\class-wc-cart.php(1328): WC_Cart->calculate_totals()
+#5 D:\Android Studio\xampp\htdocs\LBM\wp-content\themes\pepe\core\helpers\theme-function.php(124): WC_Cart->set_quantity(1485, in D:\Android Studio\xampp\htdocs\LBM\wp-content\plugins\woocommerce\includes\class-wc-cart-totals.php on line 225
+
+2020-11-23T10:34:33+00:00 CRITICAL Uncaught Error: Call to a member function get_tax_class() on null in D:\Android Studio\xampp\htdocs\LBM\wp-content\plugins\woocommerce\includes\class-wc-cart-totals.php:225
+Stack trace:
+#0 D:\Android Studio\xampp\htdocs\LBM\wp-content\plugins\woocommerce\includes\class-wc-cart-totals.php(651): WC_Cart_Totals->get_items_from_cart()
+#1 D:\Android Studio\xampp\htdocs\LBM\wp-content\plugins\woocommerce\includes\class-wc-cart-totals.php(143): WC_Cart_Totals->calculate_item_totals()
+#2 D:\Android Studio\xampp\htdocs\LBM\wp-content\plugins\woocommerce\includes\class-wc-cart-totals.php(134): WC_Cart_Totals->calculate()
+#3 D:\Android Studio\xampp\htdocs\LBM\wp-content\plugins\woocommerce\includes\class-wc-cart.php(1369): WC_Cart_Totals->__construct(Object(WC_Cart))
+#4 D:\Android Studio\xampp\htdocs\LBM\wp-content\plugins\woocommerce\includes\class-wc-cart.php(1328): WC_Cart->calculate_totals()
+#5 D:\Android Studio\xampp\htdocs\LBM\wp-content\themes\pepe\core\helpers\theme-function.php(124): WC_Cart->set_quantity('1485 in D:\Android Studio\xampp\htdocs\LBM\wp-content\plugins\woocommerce\includes\class-wc-cart-totals.php on line 225
+
+2020-11-23T10:38:15+00:00 CRITICAL Uncaught Error: Call to a member function get_tax_class() on null in D:\Android Studio\xampp\htdocs\LBM\wp-content\plugins\woocommerce\includes\class-wc-cart-totals.php:225
+Stack trace:
+#0 D:\Android Studio\xampp\htdocs\LBM\wp-content\plugins\woocommerce\includes\class-wc-cart-totals.php(651): WC_Cart_Totals->get_items_from_cart()
+#1 D:\Android Studio\xampp\htdocs\LBM\wp-content\plugins\woocommerce\includes\class-wc-cart-totals.php(143): WC_Cart_Totals->calculate_item_totals()
+#2 D:\Android Studio\xampp\htdocs\LBM\wp-content\plugins\woocommerce\includes\class-wc-cart-totals.php(134): WC_Cart_Totals->calculate()
+#3 D:\Android Studio\xampp\htdocs\LBM\wp-content\plugins\woocommerce\includes\class-wc-cart.php(1369): WC_Cart_Totals->__construct(Object(WC_Cart))
+#4 D:\Android Studio\xampp\htdocs\LBM\wp-content\plugins\woocommerce\includes\class-wc-cart.php(1328): WC_Cart->calculate_totals()
+#5 D:\Android Studio\xampp\htdocs\LBM\wp-content\themes\pepe\core\helpers\theme-function.php(124): WC_Cart->set_quantity(1485, in D:\Android Studio\xampp\htdocs\LBM\wp-content\plugins\woocommerce\includes\class-wc-cart-totals.php on line 225
+
+2020-11-23T10:38:59+00:00 CRITICAL Uncaught Error: Call to a member function set_quantity() on null in D:\Android Studio\xampp\htdocs\LBM\wp-content\themes\pepe\core\helpers\theme-function.php:124
+Stack trace:
+#0 D:\Android Studio\xampp\htdocs\LBM\wp-includes\class-wp-hook.php(287): setquantity_init('')
+#1 D:\Android Studio\xampp\htdocs\LBM\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#2 D:\Android Studio\xampp\htdocs\LBM\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 D:\Android Studio\xampp\htdocs\LBM\wp-admin\admin-ajax.php(176): do_action('wp_ajax_setquan...')
+#4 {main}
+  thrown in D:\Android Studio\xampp\htdocs\LBM\wp-content\themes\pepe\core\helpers\theme-function.php on line 124
+
+2020-11-23T10:39:27+00:00 CRITICAL Uncaught Error: Call to a member function set_quantity() on null in D:\Android Studio\xampp\htdocs\LBM\wp-content\themes\pepe\core\helpers\theme-function.php:124
+Stack trace:
+#0 D:\Android Studio\xampp\htdocs\LBM\wp-includes\class-wp-hook.php(287): setquantity_init('')
+#1 D:\Android Studio\xampp\htdocs\LBM\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#2 D:\Android Studio\xampp\htdocs\LBM\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 D:\Android Studio\xampp\htdocs\LBM\wp-admin\admin-ajax.php(176): do_action('wp_ajax_setquan...')
+#4 {main}
+  thrown in D:\Android Studio\xampp\htdocs\LBM\wp-content\themes\pepe\core\helpers\theme-function.php on line 124
+
+2020-11-23T10:52:43+00:00 CRITICAL Uncaught Error: Call to a member function get_tax_class() on null in D:\Android Studio\xampp\htdocs\LBM\wp-content\plugins\woocommerce\includes\class-wc-cart-totals.php:225
+Stack trace:
+#0 D:\Android Studio\xampp\htdocs\LBM\wp-content\plugins\woocommerce\includes\class-wc-cart-totals.php(651): WC_Cart_Totals->get_items_from_cart()
+#1 D:\Android Studio\xampp\htdocs\LBM\wp-content\plugins\woocommerce\includes\class-wc-cart-totals.php(143): WC_Cart_Totals->calculate_item_totals()
+#2 D:\Android Studio\xampp\htdocs\LBM\wp-content\plugins\woocommerce\includes\class-wc-cart-totals.php(134): WC_Cart_Totals->calculate()
+#3 D:\Android Studio\xampp\htdocs\LBM\wp-content\plugins\woocommerce\includes\class-wc-cart.php(1369): WC_Cart_Totals->__construct(Object(WC_Cart))
+#4 D:\Android Studio\xampp\htdocs\LBM\wp-content\plugins\woocommerce\includes\class-wc-cart.php(1328): WC_Cart->calculate_totals()
+#5 D:\Android Studio\xampp\htdocs\LBM\wp-content\themes\pepe\core\helpers\theme-function.php(124): WC_Cart->set_quantity(1485, in D:\Android Studio\xampp\htdocs\LBM\wp-content\plugins\woocommerce\includes\class-wc-cart-totals.php on line 225
+

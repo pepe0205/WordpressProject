@@ -24,3 +24,35 @@ Stack trace:
 #7 {main}
   thrown in D:\Android Studio\xampp\htdocs\LBM\wp-content\themes\pepe\templates\content-category.php on line 14
 
+2020-11-16T10:50:56+00:00 CRITICAL syntax error, unexpected ';', expecting ')' in D:\Android Studio\xampp\htdocs\LBM\wp-content\themes\pepe\core\options.php on line 191
+
+2020-11-16T10:51:12+00:00 CRITICAL syntax error, unexpected ';', expecting ')' in D:\Android Studio\xampp\htdocs\LBM\wp-content\themes\pepe\core\options.php on line 191
+
+2020-11-16T10:53:13+00:00 CRITICAL syntax error, unexpected ';', expecting ')' in D:\Android Studio\xampp\htdocs\LBM\wp-content\themes\pepe\core\options.php on line 191
+
+2020-11-16T10:55:14+00:00 CRITICAL syntax error, unexpected ';', expecting ')' in D:\Android Studio\xampp\htdocs\LBM\wp-content\themes\pepe\core\options.php on line 191
+
+2020-11-16T10:55:41+00:00 CRITICAL syntax error, unexpected ';', expecting ')' in D:\Android Studio\xampp\htdocs\LBM\wp-content\themes\pepe\core\options.php on line 202
+
+2020-11-16T10:55:41+00:00 CRITICAL syntax error, unexpected ';', expecting ')' in D:\Android Studio\xampp\htdocs\LBM\wp-content\themes\pepe\core\options.php on line 202
+
+2020-11-16T10:56:04+00:00 CRITICAL syntax error, unexpected ';', expecting ')' in D:\Android Studio\xampp\htdocs\LBM\wp-content\themes\pepe\core\options.php on line 202
+
+2020-11-16T11:03:44+00:00 CRITICAL syntax error, unexpected 'echo' (T_ECHO), expecting ')' in D:\Android Studio\xampp\htdocs\LBM\wp-content\themes\pepe\templates\content-danhriengchoban.php on line 6
+
+2020-11-16T11:04:00+00:00 CRITICAL syntax error, unexpected 'echo' (T_ECHO), expecting ')' in D:\Android Studio\xampp\htdocs\LBM\wp-content\themes\pepe\templates\content-danhriengchoban.php on line 6
+
+2020-11-16T11:04:39+00:00 CRITICAL syntax error, unexpected 'echo' (T_ECHO), expecting ')' in D:\Android Studio\xampp\htdocs\LBM\wp-content\themes\pepe\templates\content-danhriengchoban.php on line 6
+
+2020-11-16T11:04:57+00:00 CRITICAL syntax error, unexpected 'echo' (T_ECHO), expecting ')' in D:\Android Studio\xampp\htdocs\LBM\wp-content\themes\pepe\templates\content-danhriengchoban.php on line 7
+
+2020-11-16T11:13:43+00:00 CRITICAL syntax error, unexpected 'echo' (T_ECHO), expecting ')' in D:\Android Studio\xampp\htdocs\LBM\wp-content\themes\pepe\templates\content-danhriengchoban.php on line 7
+
+2020-11-16T11:14:04+00:00 CRITICAL syntax error, unexpected 'echo' (T_ECHO), expecting ')' in D:\Android Studio\xampp\htdocs\LBM\wp-content\themes\pepe\templates\content-danhriengchoban.php on line 7
+
+2020-11-16T11:17:57+00:00 CRITICAL Object of class WP_Term could not be converted to string in D:\Android Studio\xampp\htdocs\LBM\wp-content\themes\pepe\templates\content-danhriengchoban.php on line 8
+
+2020-11-16T11:21:59+00:00 CRITICAL syntax error, unexpected ''fields'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in D:\Android Studio\xampp\htdocs\LBM\wp-content\themes\pepe\core\options.php on line 201
+
+2020-11-16T11:22:00+00:00 CRITICAL syntax error, unexpected ''fields'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in D:\Android Studio\xampp\htdocs\LBM\wp-content\themes\pepe\core\options.php on line 201
+

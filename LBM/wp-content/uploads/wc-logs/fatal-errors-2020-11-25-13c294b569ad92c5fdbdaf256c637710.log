@@ -1,0 +1,66 @@
+2020-11-25T01:16:15+00:00 CRITICAL Maximum execution time of 30 seconds exceeded in D:\Android Studio\xampp\htdocs\LBM\wp-content\plugins\woocommerce\packages\woocommerce-admin\src\Notes\WC_Admin_Notes_Test_Checkout.php on line 12
+
+2020-11-25T01:16:55+00:00 CRITICAL Maximum execution time of 30 seconds exceeded in D:\Android Studio\xampp\htdocs\LBM\wp-content\plugins\woocommerce\packages\woocommerce-admin\src\Notes\WC_Admin_Notes_Choose_Niche.php on line 10
+
+2020-11-25T01:45:37+00:00 CRITICAL Uncaught Error: Call to a member function get_tax_class() on null in D:\Android Studio\xampp\htdocs\LBM\wp-content\plugins\woocommerce\includes\class-wc-cart-totals.php:225
+Stack trace:
+#0 D:\Android Studio\xampp\htdocs\LBM\wp-content\plugins\woocommerce\includes\class-wc-cart-totals.php(651): WC_Cart_Totals->get_items_from_cart()
+#1 D:\Android Studio\xampp\htdocs\LBM\wp-content\plugins\woocommerce\includes\class-wc-cart-totals.php(143): WC_Cart_Totals->calculate_item_totals()
+#2 D:\Android Studio\xampp\htdocs\LBM\wp-content\plugins\woocommerce\includes\class-wc-cart-totals.php(134): WC_Cart_Totals->calculate()
+#3 D:\Android Studio\xampp\htdocs\LBM\wp-content\plugins\woocommerce\includes\class-wc-cart.php(1369): WC_Cart_Totals->__construct(Object(WC_Cart))
+#4 D:\Android Studio\xampp\htdocs\LBM\wp-content\plugins\woocommerce\includes\class-wc-cart.php(1328): WC_Cart->calculate_totals()
+#5 D:\Android Studio\xampp\htdocs\LBM\wp-content\themes\pepe\core\helpers\theme-function.php(124): WC_Cart->set_quantity(1485, in D:\Android Studio\xampp\htdocs\LBM\wp-content\plugins\woocommerce\includes\class-wc-cart-totals.php on line 225
+
+2020-11-25T03:31:09+00:00 CRITICAL Uncaught Error: Call to undefined function blog_info() in D:\Android Studio\xampp\htdocs\LBM\wp-content\themes\pepe\header.php:183
+Stack trace:
+#0 D:\Android Studio\xampp\htdocs\LBM\wp-includes\template.php(730): require_once()
+#1 D:\Android Studio\xampp\htdocs\LBM\wp-includes\template.php(676): load_template('D:\\Android Stud...', true, Array)
+#2 D:\Android Studio\xampp\htdocs\LBM\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#3 D:\Android Studio\xampp\htdocs\LBM\wp-content\themes\pepe\index.php(1): get_header()
+#4 D:\Android Studio\xampp\htdocs\LBM\wp-includes\template-loader.php(106): include('D:\\Android Stud...')
+#5 D:\Android Studio\xampp\htdocs\LBM\wp-blog-header.php(19): require_once('D:\\Android Stud...')
+#6 D:\Android Studio\xampp\htdocs\LBM\index.php(17): require('D:\\Android Stud...')
+#7 {main}
+  thrown in D:\Android Studio\xampp\htdocs\LBM\wp-content\themes\pepe\header.php on line 183
+
+2020-11-25T03:31:18+00:00 CRITICAL Uncaught Error: Call to undefined function blog_info() in D:\Android Studio\xampp\htdocs\LBM\wp-content\themes\pepe\header.php:183
+Stack trace:
+#0 D:\Android Studio\xampp\htdocs\LBM\wp-includes\template.php(730): require_once()
+#1 D:\Android Studio\xampp\htdocs\LBM\wp-includes\template.php(676): load_template('D:\\Android Stud...', true, Array)
+#2 D:\Android Studio\xampp\htdocs\LBM\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#3 D:\Android Studio\xampp\htdocs\LBM\wp-content\themes\pepe\index.php(1): get_header()
+#4 D:\Android Studio\xampp\htdocs\LBM\wp-includes\template-loader.php(106): include('D:\\Android Stud...')
+#5 D:\Android Studio\xampp\htdocs\LBM\wp-blog-header.php(19): require_once('D:\\Android Stud...')
+#6 D:\Android Studio\xampp\htdocs\LBM\index.php(17): require('D:\\Android Stud...')
+#7 {main}
+  thrown in D:\Android Studio\xampp\htdocs\LBM\wp-content\themes\pepe\header.php on line 183
+
+2020-11-25T04:34:11+00:00 CRITICAL syntax error, unexpected ')' in D:\Android Studio\xampp\htdocs\LBM\wp-content\themes\pepe\core\helpers\theme-function.php on line 109
+
+2020-11-25T05:53:05+00:00 CRITICAL Uncaught Error: Call to undefined method WC_Product_Simple::get_quantity() in D:\Android Studio\xampp\htdocs\LBM\wp-content\themes\pepe\woocommerce\content-single-product.php:84
+Stack trace:
+#0 D:\Android Studio\xampp\htdocs\LBM\wp-includes\template.php(732): require()
+#1 D:\Android Studio\xampp\htdocs\LBM\wp-content\plugins\woocommerce\includes\wc-core-functions.php(284): load_template('D:\\Android Stud...', false)
+#2 D:\Android Studio\xampp\htdocs\LBM\wp-content\themes\pepe\single-product.php(15): wc_get_template_part('content', 'single-product')
+#3 D:\Android Studio\xampp\htdocs\LBM\wp-includes\template-loader.php(106): include('D:\\Android Stud...')
+#4 D:\Android Studio\xampp\htdocs\LBM\wp-blog-header.php(19): require_once('D:\\Android Stud...')
+#5 D:\Android Studio\xampp\htdocs\LBM\index.php(17): require('D:\\Android Stud...')
+#6 {main}
+  thrown in D:\Android Studio\xampp\htdocs\LBM\wp-content\themes\pepe\woocommerce\content-single-product.php on line 84
+
+2020-11-25T06:29:04+00:00 CRITICAL syntax error, unexpected '=', expecting ',' or ';' in D:\Android Studio\xampp\htdocs\LBM\wp-content\themes\pepe\woocommerce\content-single-product.php on line 15
+
+2020-11-25T06:30:23+00:00 CRITICAL syntax error, unexpected '=', expecting ',' or ';' in D:\Android Studio\xampp\htdocs\LBM\wp-content\themes\pepe\woocommerce\content-single-product.php on line 15
+
+2020-11-25T07:12:02+00:00 CRITICAL syntax error, unexpected 'wooommerce' (T_STRING) in D:\Android Studio\xampp\htdocs\LBM\wp-content\themes\pepe\header.php on line 156
+
+2020-11-25T08:27:52+00:00 CRITICAL syntax error, unexpected ''order'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in D:\Android Studio\xampp\htdocs\LBM\wp-content\themes\pepe\core\helpers\register-style.php on line 9
+
+2020-11-25T08:27:55+00:00 CRITICAL syntax error, unexpected ''order'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in D:\Android Studio\xampp\htdocs\LBM\wp-content\themes\pepe\core\helpers\register-style.php on line 9
+
+2020-11-25T08:28:00+00:00 CRITICAL syntax error, unexpected ''order'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in D:\Android Studio\xampp\htdocs\LBM\wp-content\themes\pepe\core\helpers\register-style.php on line 9
+
+2020-11-25T08:28:07+00:00 CRITICAL syntax error, unexpected ''order'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in D:\Android Studio\xampp\htdocs\LBM\wp-content\themes\pepe\core\helpers\register-style.php on line 9
+
+2020-11-25T09:58:09+00:00 CRITICAL Cannot redeclare quantity_init() (previously declared in D:\Android Studio\xampp\htdocs\LBM\wp-content\themes\pepe\core\helpers\theme-function.php:104) in D:\Android Studio\xampp\htdocs\LBM\wp-content\themes\pepe\core\helpers\theme-function.php on line 158
+
