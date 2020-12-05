@@ -35,17 +35,7 @@ $('.iyaBQp .group-input input').change(function () {
 
 	}
 });
-$('.qty-increase').click(function () {
 
-	var $button = $(this);
-	var $parent = $button.parent();
-	var numb = $parent.children('.qty-input').val();
-	var newNumb;
-	console.log(numb);
-	newNumb = parseInt(numb) + 1;
-	$parent.find('.qty-input').val(newNumb);
-
-});
 $('.qty-decrease').click(function () {
 
 	var $button = $(this);

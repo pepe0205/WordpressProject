@@ -146,7 +146,7 @@
                         <div class="Bottom__LinkContainer-azeq0g-1 jTePei"><a data-view-id="header_bottom_icons_tiki_card" href="/chuong-trinh/mo-the-tikicard?src=header_tikicard" target="_blank" class="Bottom__Link-azeq0g-2 kOJvlh"><img class="tikicon" src="https://frontend.tikicdn.com/_desktop-next/static/img/tiki-card.svg" width="64"><span>Hoàn tiền<br>15%</span></a><a data-view-id="header_bottom_icons_tikinow" href="/chuong-trinh/tikinow-uu-dai-tiet-kiem?src=header_tikinow_fast" target="_blank" class="Bottom__Link-azeq0g-2 kOJvlh"><i class="tikicon icon-tikinow"></i><span>Giao nhanh<br>2h &amp; hôm sau</span></a><a data-view-id="header_bottom_icons_tiki_fresh" href="/thuc-pham-tuoi-song/c44792?src=header_tikingon" target="_blank" class="Bottom__Link-azeq0g-2 kOJvlh"><img class="tikicon" src="https://salt.tikicdn.com/ts/upload/c1/cc/d0/6dc657167181c1b6b93c8da654dddac3.png" width="64"><span>Thực phẩm<br>tươi sống</span></a><a data-view-id="header_bottom_icons_genuine" class="Bottom__Link-azeq0g-2 kOJvlh"><i class="tikicon icon-exclusive"></i><span>Sản phẩm<br>chính hiệu</span></a><a data-view-id="header_bottom_icons_return" href="/doi-tra-de-dang?src=header_return_policy" target="_blank" class="Bottom__Link-azeq0g-2 kOJvlh"><i class="tikicon icon-return"></i><span>30 ngày<br>đổi trả</span></a></div>
                     </div>
                 </div>
-            </header>
+            </header>   
             <?php get_template_part('templates/content', 'loginpopup') ?>
          
             <?php

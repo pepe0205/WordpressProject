@@ -7,7 +7,8 @@ function pepe_style(){
 		'news',
 		'categoryStyle',
 		'thanhtoan',
-		'bill'
+		'bill',
+		'archive'
 	);
 	$jsArray= array(
 		'add-to-cart',
